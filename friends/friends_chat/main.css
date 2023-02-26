@@ -1,0 +1,161 @@
+.chatbox-container{
+    width: 85vw;
+    height: 90vh;
+}
+
+.chatbox-left{
+    width: 35vw;
+    height: 90vh;
+    background-color: #212429;
+}
+.chatbox-right{
+    width: 50vw;
+    height: 90vh;
+    background-color: #212429;
+}
+
+.chatbox-title{
+    width: 35vw;
+    height: 12vh;
+    background-color: #19191F;
+    justify-content: space-between;
+}
+
+.chatbox-title-pp{
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(0, 0, 0);
+    border-radius : 50%;
+    margin : 0 1vw;
+}
+
+.chatbox-title-name{
+    width: 18vw;
+    height: 9vh;
+
+    color: #fff;
+    justify-content: flex-start;
+    font-size: 1.8vw;
+
+}
+
+.chatbox-title-logout{
+    width: 8vw;
+    height: 7vh;
+    background-color: #43F0BC;
+    color: #19191F;
+    margin : 0 1vw;
+    border-radius: 2vh;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+
+.chats-box{
+    width: 35vw;
+    height: 72vh;
+    margin : 3vh 0;
+    max-height: 72vh;
+    overflow-y: auto;
+    
+}
+
+::-webkit-scrollbar{
+    width: 0px;
+    scroll-behavior: smooth;
+}
+
+
+
+
+/*********/
+
+
+
+.chats-title{
+    width: 35vw;
+    height: 12vh;
+    background-color: hsl(218, 11%, 18%);
+    justify-content: space-between;
+    border-bottom: 0.25vh hsl(218, 11%, 13%) dotted;
+}
+
+.chats-title-pp{
+    width: 8vh;
+    height: 8vh;
+    background-color: rgb(0, 0, 0);
+    border-radius : 50%;
+    margin : 0 1vw;
+}
+
+.chats-title-name{
+    width: 18vw;
+    height: 9vh;
+
+    color: #fff;
+    justify-content: flex-start;
+    font-size: 1.6vw;
+    font-weight: 300;
+
+}
+
+.chats-available{
+    width: 3vh;
+    height: 3vh;
+    background-color: #43F0BC;
+    border-radius: 50%;
+    margin-right: 8vh;
+}
+
+
+.chat-area{
+    width: 50vw;
+    height: 78vh;
+    background-color: hsl(218, 11%, 18%);
+    max-height: 78vh;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+}
+
+.chat-inputbox{
+    width: 50vw;
+    height: 12vh;
+    background-color: #19191F;
+}
+
+
+
+.chat-inputbox input{
+    width: 50vw;
+    height: 12vh;
+    background-color: #212429;
+}
+
+.msg{
+    width: 20vh;
+    font-size: 10px;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 20px;
+    margin: 15px 0;
+    box-shadow: 0px 0px 10px rgb(59, 59, 59);
+
+}
+.msg-header{
+    justify-content: space-between;
+    font-weight: 700;
+}
+
+.msg-text{
+    margin: 10px 0px;
+    font-size: 12px;
+    font-weight: 400;
+
+}
+
+.msg-left{
+    border-radius: 10px 10px 10px 0px;
+}
+.msg-right{
+    border-radius: 10px 10px 0px 10px;
+    margin-left:120px;
+}

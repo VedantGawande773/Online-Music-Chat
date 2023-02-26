@@ -1,0 +1,120 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins;
+}
+
+.flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container{
+    width: 100vw;
+    height: 100vh;
+    background-color: #19191F;
+}
+
+.topContent{
+    width: 100vw;
+    height: 90vh;
+    background-color: #19191F;
+}
+
+.leftSidebar{
+    width: 15vw;
+    height: 90vh;
+    background-color: hsl(240, 11%, 12%);
+}
+
+.logo{
+    width: 15vw;
+    height: 6vw;
+
+}
+
+.sidebarMenu{
+    width: 15vw;
+    height: 30vw;
+}
+
+.menu-item{
+    width: 15vw;
+    height: 5vw;
+
+}
+
+.menu-title:hover{
+    color: #43F0BC;
+}
+
+
+.menu-icon{
+    width: 5vw;
+    height: 5vw;
+}
+
+.menu-title{
+    width: 10vw;
+    height: 5vw;
+
+    justify-content: flex-start;
+    color: hsl(0, 0%, 75%);
+    padding-left: 0.5vw;
+    font-size: 1.4vw;
+    letter-spacing: 0.25px;
+}
+
+.mainContent{
+    width: 85vw;
+    height: 90vh;
+    
+}
+
+
+
+.bottomContent{
+    width: 100vw;
+    height: 10vh;
+    background-color: hsl(240, 11%, 10%);
+}
+
+a{
+    text-decoration: none;
+}
+
+.active{
+    color: hsl(162, 85%, 45%);
+    font-weight: 600;
+}
+
+.credit-card{
+    width: 15vw;
+    height: 21vw;
+    background-color: #212429;
+    border-radius: 2vw;
+    margin: 0.75vw;
+    color: hsl(0, 0%, 80%);
+}
+
+.credit-img{
+    width: 15vw;
+    height: 15vw;
+
+}
+
+.credit-title{
+    width: 15vw;
+    height: 3vw;
+    letter-spacing: 0.4px;
+    margin-top: -0.5vw;
+}
+
+h1{
+    color: #43F0BC;
+    margin: 2vw 3vw;
+    letter-spacing: 2px;
+}
